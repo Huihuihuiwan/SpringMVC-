@@ -3,6 +3,7 @@ package com.wendy.dao;
 import com.wendy.domain.Account;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * Created : 2020/4/28 15:31
  */
 //账户的dao接口
+@Repository
 public interface AccountDao {
 
     //查询所有账户
